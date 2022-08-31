@@ -2,6 +2,9 @@
 
 // time complexity ---> WC O(N**2) / AvgC O(N**2) / BC O(N)
 // space complexity --> O(1)
+// stable
+// online algorithm
+// useful for small N, online algorithm
 
 const insertionSort = array => {
     for (let i = 1; i < array.length; i++){
